@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family:  Verdana, Geneva, Tahoma, sans-serif;
+            background-color: black;
+            margin: 0px;
+        }
+
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: aquamarine;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: right;
+            color: #000;
+            box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.26);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+
+        article {
+            background-color:  #fff;
+            width: 200px;
+            padding: 10px;
+            box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.26);
+            border-radius: 15px;
+        }
+
+        div {
+            background-color:  #fff;
+            width: 200px;
+            padding: 10px;
+            box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.26);
+            border-radius: 15px; 
+        }
+
+        footer {
+            background-color: aquamarine;
+            padding: 1px;
+            margin: 0px;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Contato</a>
+            <a href="#">Sobre</a>
+            <a href="#">Produtos</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="Noticias">
+            <article>
+                <h2>Noticias sobre a Copa do Mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolorum sint, quae architecto commodi vitae inventore nam officiis nisi amet, voluptate corrupti, est dolores perferendis accusamus magnam! Tempore, veritatis error?</p>
+            <aside>
+                   <p>Artido escrito por Jose Matheus</p> 
+            </aside>
+        </section>
+
+        <section id="Imagens">
+
+        </section>
+    </main>
+    <footer>
+         <p>Desenvolvido por Davi trajano</p>
+    </footer>
+</body>
+</html>

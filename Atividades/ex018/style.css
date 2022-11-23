@@ -1,0 +1,26 @@
+@charset "UTF-8"
+
+@font-face{
+    font-family: 'Bombinha';
+    src: url('BombDaGonePERSONALUSEONLY.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Tipos de formatos
+- Opentype (Otf)
+- truetype (Ttf)
+- Embeded-opentype
+- truetype-aat (aplle advanced typografy)
+*/
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1 {
+    font-family: 'Bombinha';
+    font-size: 3em;
+    font-weight: normal;
+}
