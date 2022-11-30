@@ -31,10 +31,34 @@
                 <label for="ifone">Telefone:</label>
                 <input type="tel" name="fone" id="ifone" required autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
             </p>
+
+            <p>
+                <label for="in1">Número1</label>
+                <input type="number" name="n1" id="in1" required min="o" max="50" oninput="isoma.innerHTML = Number(in1.value) + Number (in2.value)"> 
+            </p>
+            <p>
+                <label for="in2">Número2</label>
+                <input type="number" name="n2" id="in2" required min="o" max="50" oninput="isoma.innerHTML = Number(in1.value) + Number (in2.value)">
+            </p>
+
+            <p>
+                <label for="isoma">Soma:</label>
+                <output name="soma" id="isoma">0</output>
+            </p>
             <p>
                 <input type="submit" value="Enviar">
                 <input type="reset" value="Limpar">
             </p>
+
+            <label for="imesg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="esvol" id="iesvol"> <label for="iesvol">Volei </label><br>
+            <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label>
         </fieldset>
 
 
